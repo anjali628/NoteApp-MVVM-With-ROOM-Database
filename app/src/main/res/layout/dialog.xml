@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    app:cardMaxElevation="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="8dp"
+    android:background="@drawable/item_shape"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/item_shape"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_text_name"
+            android:hint="Enter Your Name.."
+            android:textColorHint="@color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:textColor="@color/white">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_text_age"
+            android:hint="Enter Your Age.."
+            android:textColorHint="@color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textSize="30sp"
+            android:textStyle="italic"
+            android:padding="8dp"
+            android:layout_margin="8dp"
+            android:textColor="@color/white">
+
+        </EditText>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/bt_save"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="SAVE"
+            android:background="@drawable/item_shape"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:layout_margin="8dp"
+            android:textStyle="bold"
+            >
+
+        </Button>
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.cardview.widget.CardView>
